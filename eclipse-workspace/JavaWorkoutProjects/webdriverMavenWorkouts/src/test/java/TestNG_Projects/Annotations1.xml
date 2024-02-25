@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ='mySuite'>
+	<test name ='myTest1'>
+		<classes>
+			
+			<class name="TestNG_Projects.beforeTest"></class>	
+			<class name="TestNG_Projects.Annotations1"></class>		
+				
+		</classes>
+	</test>
+	
+	<test name ='myTest2'>
+		<classes>
+			
+			<class name="TestNG_Projects.firstProject"></class>	
+			<class name="TestNG_Projects.Annotations1"></class>		
+				
+		</classes>
+	</test>
+</suite>
